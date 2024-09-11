@@ -10,7 +10,7 @@ In the following paragraphs the idea, development artifacts, pre-requirements an
 As its name suggests, the Cocktail Robot was previously only able to serve cocktails. However, as people may dislike cocktails or alcoholic drinks in general, the robot lacks the functionality to serve drinks to them. Therefore, adding functionality to let the robot serve drinks from closed, crowned cap bottles widely increases its user base.
 
 ## Goal of this project
-After successfully implementing this project, the cocktail robot can find a grab crown cap bottles, open them, and pour their content into glasses and serve them to a customer. Additionally, the robot will do this in a way, where also foaming baverages (i.e. a beer) can be served with a stable foam crown.
+After successfully implementing this project, the cocktail robot can grab a crown cap bottles, open them, and pour their content into glasses and serve them to a customer. Additionally, the robot will do this in a way, where also foaming baverages (i.e. a beer) can be served with a stable foam crown.
 
 ## Process Design
 To achieve the above stated project goal, the idea of pouring a drink from a closed crown cap bottle is divided in multiple sub-processes.
