@@ -18,14 +18,15 @@ To achieve the above stated project goal, the idea of pouring a drink from a clo
 ### 1. Ordering a drink
 At the very beginning of the process stands the user. Over a dedicated website the user is able to place the order and give additional instructions on it. To cover additional use cases the user can state whether the bottle has been open already and also decide if one or two drinks should be made.
 
-![image of the ordering webpage](<orderingWebpage.png>)
+<div style="text-align:center"><img src="orderingWebpage.png" /></div>
 
 The page is fully responsive and can also accessed via a mobile device. To make the ordering process as simple as possible, the link to the webpage can be opened via a QR code placed near the robot.
 
 The webpage for an ordering a drink is avaible under: https://lehre.bpm.in.tum.de/~go56jiw/orderBeer/
 Note: In order for the robot to execute the order, the CPEE process needs be started prior to ordering.
 
-![image of the qr code for the webpage](qrCodeWebpage.png)
+
+<div style="text-align:center"><img src="qrCodeWebpage.png" /></div>
 
 The code of the webpage and the PHP files forwarding the user input to the CPEE process engine can be found in this repository in the code folder. 
 
