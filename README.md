@@ -58,5 +58,51 @@ The CAD construction files for the 3D-printed glass holder parts can be access v
 ### 5. Serving the drink 
 In the current process implementation, the user placed one or two glasses in predetermined positions. The robot the takes the glasses from there, moves them on the slope and returns them to the inital positions to "foam up" and serve the drinks.
 
+# Executing the program
+
+## Inital positioning
+To ensure a correct program execution, all items should be placed as shown on the following picture:
+
+<div style="text-align:center"><img src="initialPositions.png" /></div>
+
+## Starting the CPEE process
+The CPEE program for this project can be found under
+[`Teaching/Prak/TUM-Prak-24-SS/TGeilenBier/RobotIWantABeer.xml`](https://cpee.org/hub/?stage=development&dir=Teaching.dir/Prak.dir/TUM-Prak-24-SS.dir/TGeilenBier.dir/)
+
+The process is designed to wait for an order after being started. This is implemented by calling a php file, waiting for changes in the files `numOfBeers.txt` and `openRequired.txt`. When both of these are changed, the new values stored in them are returned to the CPEE and saved in local variables.
+
+<div style="text-align:center"><img src="cpeeProcess.png" /></div>
+
+## Ordering on the webpage
+As described above, the customers are able to order their drinks via a dedicated webpage `orderBeer/index.php`.
+
+When clicken on the "Order now" button, the user input is saved to the `numOfBeers.txt` and `openRequired.txt` files, triggering the continuation of the CPEE process.
+
+Afterwards, the customer is customer is forwarded to the page `orderBeer/orderPlaced.php`, which shows the remaining time until the order is finished.
+
+<div style="text-align:center"><img src="orderPlaced.png" /></div>
+
+## Preperation of drinks
+Based on the user input provided via the webpage, the CPEE calls different endpoints of the robot. The following table shows all available programs and endpoints:
 
 
+| Program Name       | Endpoint URL                  |
+|--------------------|-------------------------------|
+| getOrder          | `https://lehre.bpm.in.tum.de/~go56jiw/getOrder.php`                  |
+| placeBottle          | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/grabBottlePutOpenSpot.urp/wait`                  |
+| openBottle          | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/grabOpenRelease.urp/wait`                  |
+| placeG1OnSlope          | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/placeG10nSlope.urp/wait`                  |
+| removeG1FromSlope          | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/removeG2FromSlope.urp/wait`                  |
+| placeG2OnSlope          | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/placeG10nSlope.urp/wait`                  |
+| removeG2FromSlope          | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/removeG2FromSlope.urp/wait`                  |
+| pourDrinkOnSlope         | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/pourDrinkOnSlope.urp/wait`                  |
+| foamUp1Drink          | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/foamUp1Drink.urp/wait`                  |
+| foamUp2Drinks          | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/foamUp2Drinks.urp/wait`                  |
+| returnBottle         | `https://lab.bpm.in.tum.de/ur/programs/TGeilenBier/returnBottle.urp/wait`                  |
+
+## Serving the order
+After the 60% of the process has been completed, the customer is informed on the webpage to come back to the bar.
+
+After the execution has finished, an alert is shown on the customers webpage, stating that the order is done.
+
+The glass can safely be picked up from their initial spots.
