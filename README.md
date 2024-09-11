@@ -36,14 +36,16 @@ The closed bottle needs to be placed in a predetermined position by a human oper
 In this phase, a special 3D-printed adapter is utilized to hold the bottle opener. This adapter is easy for the robot to hold and push down on the closed bottle to remove the crown cap. 
 As the crown can get stuck within the opener, another 3D-printed device might be needed to remove it from the opener.
 
-![image of bottle opener](<bottleOpener.png>)
+<div style="text-align:center"><img src="bottleOpener.png" /></div>
+
 The CAD construction files for the 3D-printed bottle opener parts can be access via the following link: https://cad.onshape.com/documents/6a5412c4e68d0fce2ab7888f/w/e2a39a63512e6414095e9b9c/e/d7c2ca389113a15bfc2ea8c5?renderMode=0&uiState=66e17026db572617a75261e5
 
 
 ### 4. Pouring the drink
 The carbonation of bevarages can cause them to heavily foam when pouring straight down into a glass. To ensure a steady flow without major foam producation the glass is placed on a special 3D-printed slope in a 45° angle first.
 
-![image of glass holder](<glassHolder.png>)
+<div style="text-align:center"><img src="glassHolder.png" /></div>
+
 
 After filling the most of the glass on the holding device, the robot returns glass to its inital position. Subsequently, the robot grabs the opened bottle again and pours a small amount into the glass to create some foam right before serving.
 
