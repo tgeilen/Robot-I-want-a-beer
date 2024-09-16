@@ -3,6 +3,30 @@ This repository serves as documentation for the "Beer Robot" project in the TUM 
 
 In the following paragraphs, the idea, development artifacts, prerequisites, and the implemented process will be discussed.
 
+# Table of Contents
+- [Robot, I Want a Beer!](#robot-i-want-a-beer)
+  - [Idea](#idea)
+    - [Situation Before This Project](#situation-before-this-project)
+    - [Goal of This Project](#goal-of-this-project)
+    - [Process Design](#process-design)
+      - [1. Ordering a Drink](#1-ordering-a-drink)
+      - [2. Getting the Closed Bottle](#2-getting-the-closed-bottle)
+      - [3. Opening the Closed Bottle](#3-opening-the-closed-bottle)
+      - [4. Pouring the Drink](#4-pouring-the-drink)
+      - [5. Serving the Drink](#5-serving-the-drink)
+  - [Executing the Program](#executing-the-program)
+    - [Initial Positioning](#initial-positioning)
+    - [Starting the CPEE Process](#starting-the-cpee-process)
+    - [Ordering on the Webpage](#ordering-on-the-webpage)
+    - [Preparation of Drinks](#preparation-of-drinks)
+    - [Serving the Order](#serving-the-order)
+    - [Demo](#demo)
+    - [Execution Times](#execution-times)
+  - [Possible Future Projects](#possible-future-projects)
+    - [1. Automated Bottle Detection](#1-automated-bottle-detection)
+    - [2. Automated Bottle Supply](#2-automated-bottle-supply)
+    - [3. Advanced Ordering Interface](#3-advanced-ordering-interface)
+---
 # Idea
 
 ## Situation Before This Project
