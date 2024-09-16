@@ -57,7 +57,7 @@ The code for the webpage and the PHP files that forward user input to the CPEE p
 The closed bottle needs to be placed in a predetermined position by a human operator. During process execution, the robot grabs the closed bottle from this position and places it in a different location to open it.
 
 ### 3. Opening the Closed Bottle
-In this phase, a special 3D-printed adapter is used to hold the bottle opener. This adapter is easy for the robot to hold and press down on to remove the crown cap from the closed bottle. As the cap can get stuck within the opener, another 3D-printed device might be needed to remove it.
+In this phase, a special 3D-printed adapter is used to hold the bottle opener. This adapter is easy for the robot to hold and press down on to remove the crown cap from the closed bottle. As the cap can get stuck within the opener, the robot moves the opener over a strong magnet for a short time. The magnet pulls the cap out of the opener ensuring a successful opening during the next program execution.
 
 <div style="text-align:center"><img src="bottleOpener.png" /></div>
 
