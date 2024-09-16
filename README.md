@@ -117,3 +117,25 @@ Depending on the number of drinks and whether the bottle is open or closed, the 
 The provided execution times were measured manually and may vary slightly.
 
 ---
+
+Here's your text with the spelling and grammar errors corrected:
+
+---
+
+## Possible Future Projects
+
+This project has enabled the robot to serve more drinks to its users. However, through this addition, multiple new projects can further increase the functionality of the robot:
+
+### 1. Automated Bottle Detection
+A simple feature would be for the robot to detect the size of a bottle and adjust its movements accordingly. This would allow the use of different bottles and drinks for the implemented pouring process.
+
+### 2. Automated Bottle Supply
+Currently, a user is required to place a single bottle at the designated location for the process to execute correctly. In the next step, the robot could be programmed to use its camera and a computer vision model to find unopened bottles in a bottle crate and place them at the required location. This would allow the process to be executed multiple times without the need for an operator to remove and place the bottles.
+
+### 3. Advanced Ordering Interface
+In the current setup, the web interface does not support order queues and directly forwards an order to the waiting CPEE program. A more advanced program could track incoming orders, store them, and optimize their execution (e.g., pour two drinks in the same run instead of two single pours in two runs). Additionally, the program could store the status of bottles and remember which ones are half-empty (used once) and use them for single drink orders instead of opening a new bottle. This would allow for faster service and more efficient use of resources (drinks).
+
+---
+
+
+
