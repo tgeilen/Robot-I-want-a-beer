@@ -106,3 +106,24 @@ After the 60% of the process has been completed, the customer is informed on the
 After the execution has finished, an alert is shown on the customers webpage, stating that the order is done.
 
 The glass can safely be picked up from their initial spots.
+
+## Demo
+The video below showcases the execution of the program for one drink with a closed bottle. (Note: The video speed is increased 4x)
+
+<div style="text-align:center"><img src="https://github.com/user-attachments/assets/5a084a1d-a139-4319-a5f1-ae3c50ea05a1" /></div>
+
+## Execution Times
+Based on the number of drinks and the state of the bottle (open/closed), the execution time varies. The following table shows them for each combination.
+
+|        | 1 Drink | 2 Drinks |
+|--------|----------|----------|
+| Open bottle  |    1:44     |    2:17     |
+| Closed bottle  |     2:40    |    3:13     |
+
+The provided execution time were measured by hand and can therefore potentially vary by small amounts. 
+
+
+
+
+
+
