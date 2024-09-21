@@ -104,7 +104,7 @@ Afterward, the customer is forwarded to the page `orderBeer/orderPlaced.php`, wh
 <div style="text-align:center"><img src="orderPlaced.png" /></div>
 
 ## Preparation of Drinks
-Based on the user input provided via the webpage, the CPEE calls different endpoints of the robot. The following table shows all available programs and endpoints:
+Based on the user input provided via the webpage, the CPEE calls different endpoints of the robot. The following table shows all available programs and the belonging endpoints:
 
 | Program Name       | Endpoint URL                  |
 |--------------------|-------------------------------|
