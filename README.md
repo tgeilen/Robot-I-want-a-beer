@@ -142,7 +142,7 @@ Depending on the number of drinks and whether the bottle is open or closed, the 
 
 The provided execution times were measured manually and may vary slightly.
 
----
+
 
 ## Possible Future Projects
 
