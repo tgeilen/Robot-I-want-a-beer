@@ -144,10 +144,6 @@ The provided execution times were measured manually and may vary slightly.
 
 ---
 
-Here's your text with the spelling and grammar errors corrected:
-
----
-
 ## Possible Future Projects
 
 This project has enabled the robot to serve more drinks to its users. However, through this addition, multiple new projects can further increase the functionality of the robot:
