@@ -3,6 +3,8 @@ This repository serves as documentation for the "Beer Robot" project in the TUM 
 
 In the following paragraphs, the idea, development artifacts, prerequisites, and the implemented process will be discussed.
 
+Lastly, further relevant projects enabled by the "Beer Robot" are discussed.
+
 ## Table of Contents
 - [Robot, I Want a Beer!](#robot-i-want-a-beer)
   - [Idea](#idea)
