@@ -61,8 +61,7 @@ The closed bottle needs to be placed in a predetermined position by a human oper
 ### 3. Opening the Closed Bottle
 In this phase, a special 3D-printed adapter is used to hold the bottle opener. This adapter is easy for the robot to hold and press down on to remove the crown cap from the closed bottle. The adapter sits in an outer mount fitted with a plate, which ensures that the bottle opener self-alligns its orientation everytime it is place in the mount.
 
-As the cap can get stuck within the opener, the robot moves the opener over a strong magnet for a short time. The magnet pulls the cap out of the opener ensuring a successful opening during the next program execution.
-
+As the cap can get stuck within the opener, the robot moves the opener over a strong magnet for a short time. The magnet pulls the cap out of the opener, ensuring a successful opening during the next program execution. Additionally, before fully lifting the cap off the bottle and moving toward the magnet, the robot is programmed to use its internal sensors to calculate the weight pulling on the arm. This information is then used in an encoded safety switch, halting the program execution if the bottle has not been opened correctly and is also being lifted by the robot.
 <div style="text-align:center"><img src="bottleOpener.png" /></div>
 
 The CAD construction files for the 3D-printed bottle opener parts can be accessed via the following link: https://cad.onshape.com/documents/6a5412c4e68d0fce2ab7888f/w/e2a39a63512e6414095e9b9c/e/d7c2ca389113a15bfc2ea8c5?renderMode=0&uiState=66e17026db572617a75261e5
