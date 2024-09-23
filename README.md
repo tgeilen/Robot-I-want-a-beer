@@ -160,7 +160,11 @@ Currently, a user is required to place a single bottle at the designated locatio
 ### 3. Advanced Ordering Interface
 In the current setup, the web interface does not support order queues and directly forwards an order to the waiting CPEE program. A more advanced program could track incoming orders, store them, and optimize their execution (e.g., pour two drinks in the same run instead of two single pours in two runs). Additionally, the program could store the status of bottles and remember which ones are half-empty (used once) and use them for single drink orders instead of opening a new bottle. This would allow for faster service and more efficient use of resources (drinks).
 
----
 
+## Contact
+
+In case of any questions regarding this project, feel invited to contact me via tobias.geilen[@]tum.de
+
+--
 
 
