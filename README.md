@@ -75,6 +75,8 @@ After filling most of the glass on the holding device, the robot returns the gla
 
 As one bottle holds enough liquid for two drinks, the customer can order two drinks at once. In this case, both glasses are filled successively on the slope and "foamed up" afterward.
 
+To ensure an equal amount of liquid in each drink, independent of the amount in the bottle, the robot measures the bottle's weight before starting to pour the drink. The pouring time is then adjusted based on the bottle's weight.
+
 The CAD construction files for the 3D-printed glass holder parts can be accessed via the following link: https://cad.onshape.com/documents/83273c00850ef1c1cad62c91/w/5cc8dd61ae3197134bb7c1b9/e/b5ddfee44e0f972412c45bbc?renderMode=0&uiState=66e173128ab39f00f015a33b
 
 ### 5. Serving the Drink
