@@ -165,6 +165,5 @@ In the current setup, the web interface does not support order queues and direct
 
 In case of any questions regarding this project, feel invited to contact me via tobias.geilen[@]tum.de
 
---
 
 
